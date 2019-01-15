@@ -21,6 +21,7 @@
     <file src="license.txt" target="license" />
     <file src="README.md" target="" />
     <file src="bin\Release\netcoreapp2.1\win10-x64\publish\couchpotatoshared.dll" target="ref\netcoreapp2.1"></file>
+    <file src="bin\Release\netcoreapp2.1\osx.10.11-x64\publish\couchpotatoshared.dll" target="runtimes\osx.10.11-x64\lib\netcoreapp"></file>
     <file src="bin\Release\netcoreapp2.1\win10-x64\publish\couchpotatoshared.dll" target="runtimes\win10-x64\lib\netcoreapp"></file>
     <file src="bin\Release\netcoreapp2.1\linux-arm\publish\couchpotatoshared.dll" target="runtimes\linux-arm\lib\netcoreapp"></file>
   </files>
