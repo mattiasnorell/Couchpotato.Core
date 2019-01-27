@@ -17,12 +17,15 @@ namespace  CouchpotatoShared.Plugins{
             var settingsClassType = settingsClass.GetType();
 
             foreach(var item in source){
-
                 if(!settingsClassType.HasProperty(item.Key)){
                     continue;
                 }
 
-                settingsClassType.GetProperty(item.Key).SetValue(settingsClass, item.Value, null);
+                var settingClassProperty = settingsClassType.GetProperty(item.Key);
+                var settingClassPropertyType = settingClassProperty.PropertyType;
+              
+                settingClassProperty.SetValue(settingsClass, Convert.ChangeType(item.Value, settingClassPropertyType), null);
+               
             }
 
             return settingsClass;
