@@ -3,7 +3,9 @@ namespace CouchpotatoShared.Plugins{
     {
         ApplicationStart,
         BeforeChannel,
+        AfterChannel,
         BeforeEpg,
+        AfterEpg,
         ApplicationFinished
     } 
 }

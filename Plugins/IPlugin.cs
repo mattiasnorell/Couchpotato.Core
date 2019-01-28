@@ -1,6 +1,8 @@
+using CouchpotatoShared.Channel;
+
 namespace CouchpotatoShared.Plugins{
     public interface IPlugin
     {
-        void Run();
+        void Run(ChannelResult channelResult = null);
     }
 }
