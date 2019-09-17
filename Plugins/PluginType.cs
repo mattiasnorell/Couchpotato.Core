@@ -1,4 +1,4 @@
-namespace CouchpotatoShared.Plugins{
+namespace Couchpotato.Core.Plugins{
     public enum PluginType
     {
         ApplicationStart,

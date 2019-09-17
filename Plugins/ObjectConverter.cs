@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace  CouchpotatoShared.Plugins{
+namespace  Couchpotato.Core.Plugins{
     public static class ObjectConverter{
         public static bool HasProperty(this Type obj, string propertyName)
         {

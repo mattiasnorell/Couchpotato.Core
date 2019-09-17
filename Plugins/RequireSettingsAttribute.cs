@@ -1,6 +1,6 @@
 using System;
 
-namespace CouchpotatoShared.Plugins
+namespace Couchpotato.Core.Plugins
 {
     [AttributeUsage(AttributeTargets.Class)]
     public class RequireSettingsAttribute: Attribute{

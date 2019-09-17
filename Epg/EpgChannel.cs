@@ -1,6 +1,6 @@
 using System.Xml.Serialization;
 
-namespace CouchpotatoShared.Epg
+namespace Couchpotato.Core.Epg
 {
     public class EpgChannel{
         [XmlAttribute(AttributeName="id")]

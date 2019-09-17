@@ -1,6 +1,6 @@
-namespace CouchpotatoShared.Channel
+namespace Couchpotato.Core.Playlist
 {
-    public class Channel{
+    public class PlaylistItem{
         public string TvgId{get;set;}
         public string TvgName {get;set;}
         public string TvgLogo{get;set;}

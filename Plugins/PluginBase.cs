@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace  CouchpotatoShared.Plugins{
+namespace  Couchpotato.Core.Plugins{
 
     public class PluginBase<T> where T: class, new(){
         
