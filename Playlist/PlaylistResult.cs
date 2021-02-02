@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace Couchpotato.Core.Playlist
 {
     public class PlaylistResult

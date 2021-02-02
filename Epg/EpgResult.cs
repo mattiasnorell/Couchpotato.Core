@@ -1,4 +1,5 @@
 using System.Xml.Serialization;
+using System.Collections.Generic;
 
 namespace Couchpotato.Core.Epg
 {
@@ -6,10 +7,10 @@ namespace Couchpotato.Core.Epg
 
         public EpgResult()
         {
-            StreamsWithoutEpg = new List<String>();
+            StreamsWithoutEpg = new List<string>();
         }
 
         public EpgList Epg {get;set;}
-        public List<String> StreamsWithoutEpg {get;set;} 
+        public List<string> StreamsWithoutEpg {get;set;} 
     }
 }
