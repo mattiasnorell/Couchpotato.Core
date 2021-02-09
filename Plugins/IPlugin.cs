@@ -1,9 +1,10 @@
-using CouchpotatoShared.Channel;
-using CouchpotatoShared.Epg;
+using Couchpotato.Core.Playlist;
+using Couchpotato.Core.Epg;
+using System.Collections.Generic;
 
-namespace CouchpotatoShared.Plugins{
+namespace Couchpotato.Core.Plugins{
     public interface IPlugin
     {
-        void Run(ChannelResult channelResult = null, EpgList epgList = null);
+        void Run(PlaylistResult playlist = null, EpgResult epg = null);
     }
 }

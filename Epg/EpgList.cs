@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Xml.Serialization;
 
-namespace CouchpotatoShared.Epg
+namespace Couchpotato.Core.Epg
 {
     [XmlRoot("tv")]
     public class EpgList{

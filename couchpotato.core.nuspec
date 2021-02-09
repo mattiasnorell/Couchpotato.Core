@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Couchpotato.Core</id>
+    <title>Couchpotato.Core</title>
+    <version>0.4</version>
+    <description>
+      Shared stuff for couchpotato
+    </description>
+    <summary>
+      Shared stuff for couchpotato
+    </summary>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <authors>Mattias Norell</authors>
+    <copyright>Copyright © Mattias Norell 2019</copyright>
+    <license type="file">license/license.txt</license>
+    <projectUrl>https://github.com/mattiasnorell/couchpotato.core</projectUrl>
+    <references>
+      <group targetFramework="netcoreapp3.0.0">
+        <reference file="couchpotato.core.dll" />
+      </group>
+    </references>
+    <tags></tags>
+  </metadata>
+  <files>
+    <file src="license.txt" target="license" />
+    <file src="README.md" target="" />
+    <file src="bin\Release\netcoreapp3.0\couchpotato.core.dll" target="lib\netcoreapp3.0"></file>
+    <file src="bin\Release\netcoreapp3.0\couchpotato.core.pdb" target="lib\netcoreapp3.0"></file>
+  </files>
+</package> 
