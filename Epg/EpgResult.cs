@@ -10,7 +10,7 @@ namespace Couchpotato.Core.Epg
             StreamsWithoutEpg = new List<string>();
         }
 
-        public EpgList Epg {get;set;}
+        public EpgList Items {get;set;}
         public List<string> StreamsWithoutEpg {get;set;} 
     }
 }

@@ -7,10 +7,10 @@ namespace Couchpotato.Core.Playlist
         public PlaylistResult()
         {
             Items = new List<PlaylistItem>();
-            Missing = new List<PlaylistItem>();
+            Missing = new List<string>();
         }
 
         public List<PlaylistItem> Items { get;set;}
-        public List<PlaylistItem> Missing { get;set;}
+        public List<string> Missing { get;set;}
     }
 }
