@@ -15,5 +15,6 @@ namespace Couchpotato.Core.Playlist
         public string Url { get; set; }
         public int Order { get; set; }
         public bool IsValid { get; set; }
+        public bool HasCustomLogo { get; set; }
     }
 }
