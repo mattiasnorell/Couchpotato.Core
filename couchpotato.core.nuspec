@@ -3,7 +3,7 @@
   <metadata>
     <id>Couchpotato.Core</id>
     <title>Couchpotato.Core</title>
-    <version>0.6</version>
+    <version>0.7</version>
     <description>
       Shared stuff for couchpotato
     </description>
@@ -16,7 +16,7 @@
     <license type="file">license/license.txt</license>
     <projectUrl>https://github.com/mattiasnorell/couchpotato.core</projectUrl>
     <references>
-      <group targetFramework="netcoreapp3.0.0">
+      <group targetFramework="net7.0">
         <reference file="couchpotato.core.dll" />
       </group>
     </references>
@@ -25,7 +25,7 @@
   <files>
     <file src="license.txt" target="license" />
     <file src="README.md" target="" />
-    <file src="bin\Release\netcoreapp3.0\couchpotato.core.dll" target="lib\netcoreapp3.0"></file>
-    <file src="bin\Release\netcoreapp3.0\couchpotato.core.pdb" target="lib\netcoreapp3.0"></file>
+    <file src="bin\Release\net7.0\couchpotato.core.dll" target="lib\net7.0"></file>
+    <file src="bin\Release\net7.0\couchpotato.core.pdb" target="lib\net7.0"></file>
   </files>
 </package> 
